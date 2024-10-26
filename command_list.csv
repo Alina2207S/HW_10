@@ -1,0 +1,47 @@
+    1  git config global user.name "Alina2207S"
+    2  git config --global user.name "Alina2207S"
+    3  git config --global user.email "alinahulko22@gmail.com"
+    4  git clone https://github.com/Alina2207S/HW_10
+    5  git clone https://github.com/Alina2207S/HW_10 .
+    6  git clone https://github.com/Alina2207S/HW_10.
+    7  cd ~/HW_10/
+    8  ls
+    9  cd ~/HW_10/
+   10  cd /HW_10
+   11  ls
+   12  cd /HW_10/
+   13  cd ~/HW_10
+   14  cd~/HW_10/
+   15  cd/HW_10
+   16  ls
+   17  cd 
+   18  cd /HW_10/
+   19  ls
+   20  cd ~/hw10/HW_10/
+   21  touch text_ignore.txt
+   22  git status
+   23  git add
+   24  git add .gitignore
+   25  git status
+   26  git commit -m "task1"
+   27  touch main_test.txt
+   28  git status
+   29  git add main_test.txt
+   30  git status
+   31  git commit -m "task2"
+   32  git branch develop
+   33  git checkout develop
+   34  touch develop_test.txt
+   35  git status
+   36  git add develop_test.txt
+   37  git commit -m "task3.4"
+   38  echo "just a small change" >> develop_test.txt
+   39  git status
+   40  git add .
+   41  git status
+   42  git commit -m "task 3.8"
+   43  git checkout main
+   44  git merge develop
+   45  git log
+   46  git log
+   47  history > command_list.csv
